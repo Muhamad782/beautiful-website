@@ -1,0 +1,401 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #ffff;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background-color: #d2d2d2;
+    clip-path: polygon(0 0, 100% 0, 100% 66%, 0 100%, 0% 38%);
+}
+header nav{
+    box-shadow: 2px 5px 20px 2px rgba(0,0,0,0.3);
+    z-index: -1;
+}
+.top-center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.top-center h1{
+    font-size: 1.6rem;
+}
+.top-center p{
+    color: #666;
+    margin-top: 20px;
+    font-size: 1rem;
+}
+.top-center a{
+    text-decoration: none;
+    margin-left: 70px;
+    border: 1px solid linear-gradient(#834d9b, #d04ed6);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 22px;
+    padding-right: 22px;
+    border-radius: 8px;
+    background: linear-gradient(#834d9b, #d04ed6);
+    color: #fff;
+    cursor: pointer;
+    transition: 0.6s;
+    font-weight: bolder;
+}
+.top-center a:hover{
+    color: #834d9b;
+    background: none;
+    border: 1px solid #d04ed6;
+}
+/****************** service div start ********************/
+.service{
+    text-align: center;
+}
+.serv{
+    border: 1px solid #d1d1d1;
+    padding: 18px;
+    border-radius: 15px;
+    transition: 0.5s ease-in-out;
+    width: 100%;
+    height: 45vh;
+    padding-top: 22px;
+}
+.serv:hover{
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+    transform: translateY(-20px);
+}
+.serv p{
+    font-weight: 700;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #666666;
+}
+.serv a{
+    text-decoration: none;
+    margin-left: -2px;
+    border: 1px solid linear-gradient(#834d9b, #d04ed6);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 22px;
+    padding-right: 22px;
+    border-radius: 8px;
+    background: linear-gradient(#834d9b, #d04ed6);
+    color: #fff;
+    cursor: pointer;
+    transition: 0.6s;
+    font-weight: bolder;
+}
+.serv:hover a{
+    color: #834d9b;
+    background: none;
+    border: 1px solid #d04ed6;
+}
+.service h1{
+    margin-bottom: 20px;
+}
+.service hr{
+    margin-bottom: 30px;
+}
+
+/******************  *** service div end *********************/
+
+
+/* ***************************  About us div start ****************** */
+
+.about{
+   text-align: center;
+}
+.about a{
+    text-decoration: none;
+    margin-left: -2px;
+    border: 1px solid linear-gradient(#834d9b, #d04ed6);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 22px;
+    padding-right: 22px;
+    border-radius: 8px;
+    background: linear-gradient(#834d9b, #d04ed6);
+    color: #fff;
+    cursor: pointer;
+    transition: 0.6s;
+    font-weight: bolder;  
+}
+.about a:hover{
+    color: #834d9b;
+    background: none;
+    border: 1px solid #d04ed6;   
+}
+.about h1{
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: #000;
+}
+.about p{
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: monospace;
+}
+
+
+/************************ pricing div start *********************/
+
+.pricing{
+    text-align: center;
+}
+.price{
+    padding: 40px;
+    border: 1px solid #d1d1d1;
+    width: 100%;
+    border-radius: 10px;
+    height: 67vh;
+    transition: 0.5s ease-in-out;
+}
+.price h1{
+  text-transform: uppercase;
+}
+.price p{
+    color: #666;
+    font-weight: 600;
+}
+.price a{
+    text-decoration: none;
+    margin-left: -2px;
+    border: 1px solid linear-gradient(#834d9b, #d04ed6);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 22px;
+    padding-right: 22px;
+    border-radius: 8px;
+    background: linear-gradient(#834d9b, #d04ed6);
+    color: #fff;
+    cursor: pointer;
+    transition: 0.6s;
+    font-weight: bolder;
+}
+.price:hover{
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+    transform: translateY(-20px);
+}
+.price p{
+    color: #000;
+    font-weight: bolder;
+    font-style: none;
+}
+.price span{
+    color: #000;
+    font-weight: bolder;
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+.price:hover span{
+    color: #834d9b;
+
+}
+.price:hover a{
+    color: #834d9b;
+    background: none;
+    border: 1px solid #d04ed6;   
+}
+.pricing h1{
+    font-size: 2.5rem;
+}
+.pricing label{
+    font-size: 1rem;
+    font-family: monospace;
+    font-style: italic;
+    font-weight: 800;
+}
+
+/**********************  pricing div end   ******************/
+
+/***************************  contact us div start *******************/
+
+.contactus{
+   text-align: center;
+}
+.contactus input {
+    width: 80%;
+    height: 40px;
+    border: 1px solid #d1d1d1;
+    outline: none;
+    margin-bottom: 10px;
+    transition: 0.6s;
+    font-weight: bolder;
+}
+.contactus input:focus{
+    border: 1px solid #888888;
+}
+.contactus textarea{
+    width: 80%;
+    border: 1px solid #d1d1d1;
+    outline: none;
+    height: 40px;
+    margin-bottom: 10px;
+    transition: 0.6s;
+    font-weight: bolder;
+}
+.contactus textarea:focus{
+    border: 1px solid #888888;
+}
+.contactus a
+{
+    text-decoration: none;
+    margin-left: -2px;
+    border: 1px solid linear-gradient(#834d9b, #d04ed6);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 22px;
+    padding-right: 22px;
+    border-radius: 8px;
+    background: linear-gradient(#834d9b, #d04ed6);
+    color: #fff;
+    cursor: pointer;
+    transition: 0.6s;
+    font-weight: bolder; 
+}
+.contactus:hover a{
+    color: #834d9b;
+    background: none;
+    border: 1px solid #d04ed6;  
+}
+.contactus h1{
+    font-size: 2rem;
+    font-family: fantasy;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+.contactus p{
+    font-weight: 700;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/*******************   contact us div end ***********************/
+
+/*******************   footer div end ***********************/
+
+footer{
+    background-color: #834d9b;
+    width: 118.9%;
+    height: 40vh;
+    -webkit-margin-start: -102px;
+}
+  .foot{
+      text-align: center;
+  }
+  .foot b{
+      font-size: 15px;
+      display: inline-block;
+      -webkit-text-stroke: 0.5px;
+      -webkit-text-stroke-color: #000;
+      margin-top: 20px;
+  }
+  .foot label{
+      font-size: 12px;
+      font-weight: bolder;
+      font-style: italic;
+      -webkit-text-stroke: 0.5px;
+      -webkit-text-stroke-color: #fff;
+      text-transform: uppercase;
+      color: #d1d1d1;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  .foot p{
+      font-size: 14px;
+      font-weight: bolder;
+      font-style: italic;
+      font-family: monospace;
+      text-align: left;
+      color: #e8b6ff;
+  }
+  .fa-phone{
+      font-size: 35px;
+  }
+   p:hover .fa-phone{
+      color: brown;
+      -webkit-text-stroke: 1px;
+      -webkit-text-stroke-color: #000;
+  }
+  .fa-envelope{
+      font-size: 25px;
+  }
+  p:hover .fa-envelope{
+      color: rgb(58, 31, 31);
+      -webkit-text-stroke: 1px;
+      -webkit-text-stroke-color: #000;
+  }
+  .fa-home{
+      font-size: 25px;
+  }
+  p:hover .fa-home{
+      color: rgb(250, 162, 162);
+      -webkit-text-stroke: 1px;
+      -webkit-text-stroke-color: #000;
+  }
+  .foot a{
+     font-size: 40px;
+     margin-right: 25px;
+  }
+  .fa-facebook:hover{
+      color: blue;
+      -webkit-text-stroke: 1px;
+      -webkit-text-stroke-color: #000;
+  }
+  .fa-youtube-play:hover{
+      color: red;
+      -webkit-text-stroke: 1px;
+      -webkit-text-stroke-color: #000;
+  }
+  .fa-twitter:hover{
+      color: rgb(107, 134, 221);
+      -webkit-text-stroke: 1px;
+      -webkit-text-stroke-color: #000;
+  }
+  .fa-instagram:hover{
+      color: rgb(253, 97, 97);
+      -webkit-text-stroke: 1px;
+      -webkit-text-stroke-color: #000;
+  }
+  .fa-pinterest:hover{
+      color: rgb(128, 48, 48);
+      -webkit-text-stroke: 1px;
+      -webkit-text-stroke-color: #000;
+  }
+  .fa-github:hover{
+      color: rgb(66, 66, 66);
+      -webkit-text-stroke: 1px;
+      -webkit-text-stroke-color: #000;
+  }
+/*******************   footer div end ***********************/
+
+
+.top-btn{
+    text-align: right;
+}
+.top-btn a{
+    background: linear-gradient(#834d9b, #d04ed6);
+    border-radius: 50%;
+     font-size: 15px;
+    padding: 14px;
+   position: fixed;
+   bottom: 5%;
+   right: 3%;
+   z-index: 1;
+   color: #fff;
+   font-weight: bolder;
+   transition: 0.5s;
+}
+.top-btn i{
+    font-size: 25px;
+}
+.top-btn a:hover{
+    background: transparent;
+    border: 1px solid #834d9b;
+    box-shadow: 0 0 10px 0 rgba(0,0,0.3);
+}
+.top-btn:hover i{
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000;
+}
